@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.main {
+    margin-top: 15px;
+    background-color: #373f51;
+    color: #fff;
+    padding: 50px 25px;
+    color: #D8F3DC;
+    text-align: left;
+    float: left;
+    width: 59%;
+}
+
+.aside {
+    margin-top: 15px;
+    background-color:  #58A4B0;
+    color: #fff;
+    padding: 50px 25px;
+    color: #373f51;
+    text-align: left;
+    float: right;
+    width: 40%;
+}
+
+
+
+.{
+    margin-top: 15px;
+    background-color: #DAA49A;
+    color: #fff;
+    padding: 50px 25px;
+    color: #D8F3DC;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+
+
+
+.gmail {
+    margin-top: 15px;
+    background-color: #DAA49A;
+    color: #fff;
+    padding: 50px 25px;
+    color: #D8F3DC;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 15px;
+    background-color: #DAA49A;
+    color: #fff;
+    padding: 50px 25px;
+    color: #D8F3DC;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+.artwork {
+  width: calc(33.33% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.artwork img {
+  max-width: 100%;
+}
+
+.artist {
+  width: calc(33.33% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.artist img {
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ccc;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+}
+.google-map {
+  padding-bottom: 90%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
